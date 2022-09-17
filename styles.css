@@ -302,7 +302,7 @@ body {
     }
 
     .welcome-section p {
-        font-size: 18px;
+        font-size: 17px;
         top: 54%;
 
     }
@@ -359,7 +359,5 @@ body {
     .contact-section-header p {
         font-size: 5vw
     }
-
-
 
 }

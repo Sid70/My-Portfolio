@@ -1,0 +1,154 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Project Section start */
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #45567d;
+}
+
+.projects-section-header {
+    color: white;
+    padding: 70px 10px;
+    font-size: 7vh;
+    text-align: center;
+}
+
+.projects-grid {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    padding: 30px 10px 0px 10px;
+}
+
+.project-tile {
+    width: calc(100%/3);
+    height: auto;
+    text-decoration: none;
+}
+
+.code {
+    color: #303841;
+}
+
+.project:hover .code {
+    color: darkorange;
+}
+
+.project-image {
+    width: 100%;
+    height: 80%;
+}
+
+.project-title {
+    text-align: center;
+    background-color: #303841;
+    color: white;
+    padding: 20px 0px;
+    margin-top: -4.2px;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 17px;
+    background-color: #303841;
+    color: white;
+    font-size: 1.4vw;
+    width: fit-content;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn-show-all {
+    margin-bottom: 60px;
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+/* Projects Section End */
+
+@media (max-width:1024px) {
+    .projects-section-header {
+        font-size: 4.7vw;
+    }
+
+    .project-title {
+        font-size: 1.8vw;
+        padding: 16px 0px;
+    }
+
+    .btn {
+        padding: 10px 14px;
+        font-size: 1.9vw;
+    }
+
+}
+
+
+/* for Tablets */
+
+@media (max-width:768px) {
+
+    .projects-section-header {
+        font-size: 4.6vw;
+    }
+
+    .project-tile {
+        width: calc(100%/2);
+        height: auto;
+        text-decoration: none;
+    }
+
+    .project-title {
+        font-size: 2.1vw;
+        padding: 14px 0px;
+    }
+
+    .btn {
+        padding: 10px 22px;
+        font-size: 2.6vw;
+    }
+}
+
+/* for Mobile */
+@media (max-width:426px) {
+
+    .projects-section-header {
+        font-size: 6.2vw;
+    }
+
+    .project-tile {
+        width: calc(100%/1);
+        height: auto;
+        text-decoration: none;
+    }
+
+    .project-title {
+        font-size: 3.9vw;
+        padding: 11px 0px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 4.5vw;
+    }
+
+
+
+
+}
